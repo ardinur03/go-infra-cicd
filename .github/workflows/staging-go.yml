@@ -1,4 +1,4 @@
-Name: go-staging
+name: Go-Staging
 
 on:
   push:
@@ -33,4 +33,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: ardinur/infra-ci-cd:tagname
+          tags: ardinur/infra-ci-cd-dev:develop
